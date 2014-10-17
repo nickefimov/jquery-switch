@@ -52,6 +52,10 @@
       _this.track = $("<div></div>").addClass("ui-switch-track").appendTo(_this.slider);
       _this.knob = $("<div></div>").addClass("ui-switch-knob").appendTo(_this.slider);
 
+      _this.track_left_side = $("<div></div>").addClass("ui-switch-track-left").appendTo(_this.track);
+      _this.track_right_side = $("<div></div>").addClass("ui-switch-track-right").appendTo(_this.track);
+
+
       if(_this.labels[1] != "") {
         _this.right_side = $("<div></div>").addClass("ui-switch-right");
         _this.right_side.text(_this.labels[1]).appendTo(_this.switch);
